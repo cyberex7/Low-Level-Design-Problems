@@ -38,3 +38,5 @@ Look how the clear() method in visit() method is the root cause of the time comp
 So if we really want to optimize space we would have to do a trade-off on space. What if we do not delete the forward history, instead keep where the current foward history ends ? This optimizes the space complexity to O(1) but at a cost of huge space requirements. No wonder, why some web browsers are memory hog!!
 
 The below code implements this O(1) algorithm: Approach_4
+Time Complexity: O(1)
+Space Complexity: O(n)
