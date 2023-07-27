@@ -1,5 +1,7 @@
 Design a Snake game that is played on a device with screen size height x width. Play the game online here if you are not familiar with the game.
 
+https://www.youtube.com/watch?v=OYXPH796qXE
+
 The snake is initially positioned at the top left corner (0, 0) with a length of 1 unit.
 
 You are given an array food where food[i] = (ri, ci) is the row and column position of a piece of food that the snake can eat. When a snake eats a piece of food, its length and the game's score both increase by 1.
