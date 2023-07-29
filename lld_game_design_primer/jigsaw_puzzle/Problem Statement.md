@@ -1,0 +1,1 @@
+Implement an NxN jigsaw puzzle. Design the data structures and explain an algorithm to solve the puzzle.
