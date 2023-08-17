@@ -1,4 +1,4 @@
-from BlackJack.Card import Card
+from BlackJackCard import Card
 
 
 class BlackJackCard(Card):

@@ -31,7 +31,6 @@ class SnakeAndLadder {
         Set<Integer> visited = new HashSet<>(); // hashset offers efficient search
         bfsQueue.add(source);
         
-        int[] numberOfEdgesFromSource = new int[len * len];
         int count = 0;
         // BFS
         while (!bfsQueue.isEmpty()) {
@@ -56,7 +55,6 @@ class SnakeAndLadder {
     }
     
     private int[] getCoordinate(int num, int dimension) {
-        int equivalentZeroBasedIndex = num - 1;
         boolean evenRow = ((num - 1) / dimension) % 2 == 0; // zero based -> row index starts from 0 which is even
                                 // all even rows have numbers in ascending order from left to right.
                                 // this indexing is done brom bottom to top which 

@@ -3,9 +3,7 @@ package lld_game_design_primer.minesweeper.Approach_1;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- * Created by Abhishek on 9/15/21.
- */
+
 public class Game {
 
     private Board board;

@@ -4,9 +4,7 @@ package lld_game_design_primer.jigsaw_puzzle.Approach_1;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
-/**
- * Created by Abhishek on 9/28/21.
- */
+
 
 public class Piece {
 

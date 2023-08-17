@@ -1,6 +1,6 @@
 import sys
 
-from BlackJack.Hand import Hand
+from BlackJackHand import Hand
 
 
 class BlackJackHand(Hand):

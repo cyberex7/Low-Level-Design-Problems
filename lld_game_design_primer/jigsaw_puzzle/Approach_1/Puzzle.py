@@ -1,5 +1,9 @@
 import math
 
+from lld_game_design_primer.jigsaw_puzzle.Approach_1.Direction import Direction
+from lld_game_design_primer.jigsaw_puzzle.Approach_1.Edge import Edge
+from lld_game_design_primer.jigsaw_puzzle.Approach_1.Piece import Piece
+
 
 class Puzzle:
     def __init__(self, size, pieces):

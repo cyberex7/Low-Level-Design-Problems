@@ -3,10 +3,10 @@ package lld_game_design_primer.blackjack_deck_of_cards.Approach_1;
 import java.util.ArrayList;
 
 public class Deck <T extends Card> {
-    private ArrayList cards;
+    private ArrayList<T> cards;
     private int dealtIndex = 0;
 
-    public Deck(ArrayList deckOfCards) {
+    public Deck(ArrayList<T> deckOfCards) {
         cards = deckOfCards;
     }
 

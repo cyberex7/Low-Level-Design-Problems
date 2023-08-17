@@ -1,3 +1,8 @@
+import math
+from lld_game_design_primer.jigsaw_puzzle.Approach_1.Direction import Direction
+from lld_game_design_primer.jigsaw_puzzle.Approach_1.Shape import Shape
+
+
 class Piece:
     _NUMBER_OF_EDGES = 4
 

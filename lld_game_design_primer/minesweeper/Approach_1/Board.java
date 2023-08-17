@@ -4,9 +4,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Random;
 
-/**
- * Created by Abhishek on 9/15/21.
- */
 public class Board {
     public enum GameState { INPROGRESS, WON, LOST}
     private int rows;

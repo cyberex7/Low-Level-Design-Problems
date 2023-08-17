@@ -44,7 +44,7 @@ public class Puzzle {
     }
 
     /* Group pieces into border pieces (including corners) and inside pieces. */
-    private void groupPieces(List cornerPieces, List borderPieces, List insidePieces) {
+    private void groupPieces(List<Piece>  cornerPieces, List<Piece>  borderPieces, List<Piece>  insidePieces) {
         for (Piece p : pieces) {
             if (p.isCorner()) {
                 cornerPieces.add(p);
@@ -79,7 +79,7 @@ public class Puzzle {
     }
 
     /* Find the matching piece within piecesToSearch and insert it at row, column. */
-    private boolean insertAppropriatePiece(int row, int column, LinkedList piecesToSearch) {
+    private boolean insertAppropriatePiece(int row, int column, LinkedList<Piece>  piecesToSearch) {
         if (row == 0 && column == 0) {
             // if we just started solving the puzzle then
             // just grab any one corner piece and insert that

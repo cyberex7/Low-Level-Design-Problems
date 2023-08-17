@@ -1,3 +1,4 @@
+import Card
 class Hand(Card):
     def __init__(self, c, s):
         super().__init__(c, s)
